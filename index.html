@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	
+	<title>Tip Calculator</title>
+    
+</head>
+<body>
+
+	<div class="container">
+		<h1>Tip Calculator</h1>
+		<form id="form">
+			<input id="bill" type="number" min="0" placeholder="Price of Meal">
+			<input id="tip" type="number" min="0" placeholder="Tip Percentage">
+			<input id="split" type="number" min="0" placeholder="People to Split">
+			<button id="submit">Calculate Tip</button>
+		</form>
+		<p><strong>Tip amount:</strong> <span id="tip-total"></span></p>
+		<p><strong>Total:</strong> <span id="new-total"></span></p>
+		<p><strong>Each person will pay:</strong> <span id="split-total"></span></p>
+	</div>
+	
+<script src="js/main.js"></script>
+
+</body>
+</html>
